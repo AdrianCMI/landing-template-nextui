@@ -40,27 +40,19 @@ export const Hero = () => {
                   <Text
                      h1
                      css={{
-                        display: 'inline',
-                     }}
-                  >
-                     The modern landing page{' '}
-                  </Text>
-                  <Text
-                     h1
-                     css={{
-                        display: 'inline',
-                     }}
-                  >
-                     for{' '}
-                  </Text>
-                  <Text
-                     h1
-                     css={{
-                        display: 'inline',
+                        display: 'block',
                      }}
                      color="primary"
                   >
-                     React developers
+                     Deploy+
+                  </Text>
+                  <Text
+                     h1
+                     css={{
+                        display: 'block',
+                     }}
+                  >
+                     Desplegamos tu Éxito. Potenciamos tu Negocio.
                   </Text>
                </Box>
 
@@ -68,12 +60,12 @@ export const Hero = () => {
                   css={{
                      color: '$accents8',
                      maxWidth: '400px',
+                     display: 'inline',
                   }}
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  Implementaciones rápidas y seguras para que te concentres en lo que importa.
                </Text>
 
                <Flex
@@ -83,8 +75,8 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+                  <Input placeholder="Escriba su correo electrónico" size="lg" />
+                  <Button>Solicitar Información</Button>
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -102,7 +94,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> No credit card required.
+                     <CheckIcon /> Integración fácil.
                   </Flex>
                   <Flex
                      css={{
@@ -110,7 +102,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> 14-day free trial.
+                     <CheckIcon /> Sin contratos a largo plazo.
                   </Flex>
                   <Flex
                      css={{
@@ -118,7 +110,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Cancel anytime.
+                     <CheckIcon /> Soporte 24/7.
                   </Flex>
                </Flex>
             </Box>
@@ -130,7 +122,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="mock.png" />
+               <img src="hero.png" />
             </Box>
          </Flex>
          <Divider
