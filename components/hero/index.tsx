@@ -131,7 +131,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <Image src="/darkhero.png" alt="Hero" />
+               <img src="/darkhero.png" alt="Hero" />
             </Box>
          </Flex>
          <Divider
