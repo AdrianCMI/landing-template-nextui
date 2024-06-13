@@ -1,4 +1,4 @@
-import {Divider, Text},  from '@nextui-org/react';
+import {Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {AcmeLogo} from '../navbar/logo';
 import {Box} from '../styles/box';
@@ -40,10 +40,10 @@ export const Footer = () => {
                      gap: '$10',
                   }}
                >
-                     <a><Image src="/insta.png" color='$accents8' width="24" height="24"/></a>
-                     <a><Image src="/fb.png" color='$accents8' width="24" height="24"/></a>
-                     <a><Image src="/x.png" color='$accents8' width="24" height="24"/></a>
-                     <a><Image src="/disc.png" color='$accents8' width="24" height="24"/></a>
+                     <a><Image src="/insta.png" color='$accents8' width="24" height="24" alt="Instagram"/></a>
+                     <a><Image src="/fb.png" color='$accents8' width="24" height="24" alt="Facebook"/></a>
+                     <a><Image src="/x.png" color='$accents8' width="24" height="24" alt="Twitter"/></a>
+                     <a><Image src="/disc.png" color='$accents8' width="24" height="24" alt="Discord"/></a>
                   </Flex>
                   <Flex
                      css={{

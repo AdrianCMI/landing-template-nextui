@@ -131,7 +131,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <Image src={themeImage} />
+               <Image src={themeImage} alt="Hero" />
             </Box>
          </Flex>
          <Divider

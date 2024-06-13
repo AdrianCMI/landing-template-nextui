@@ -67,7 +67,7 @@ export const Nav = () => {
          </Navbar.Brand>
          <Navbar.Content>
             <Navbar.Item>
-               <a href='http://81.43.178.240:3000/' target="_blank"><Button auto flat >
+               <a href='http://81.43.178.240:3000/' target="_blank" rel="noreferrer"><Button auto flat >
                   Acceder a tu cuenta
                </Button>
                </a>
