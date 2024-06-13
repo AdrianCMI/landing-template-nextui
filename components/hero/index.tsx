@@ -5,6 +5,7 @@ import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
 import {useTheme as useNextTheme} from 'next-themes';
 import {useTheme} from '@nextui-org/react';
+import Image from 'next/image';
 
 export const Hero = () => {
    const {setTheme} = useNextTheme();
