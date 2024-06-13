@@ -16,10 +16,7 @@ export const Faq = () => {
             direction={'column'}
          >
             <Flex align={'center'} direction={'column'}>
-               <Text span css={{color: '$blue600'}}>
-                  FAQ
-               </Text>
-               <Text h2>You Have Questions?</Text>
+               <Text h2 css={{color: '$blue600'}} id ={'faq'}>Preguntas Frecuentes</Text>
                <Text
                   span
                   css={{
@@ -67,8 +64,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                     ¿Qué servicios incluyen en el mantenimiento?
                      </Text>
                      <Text
                         span
@@ -76,25 +72,10 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing adipiscing elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, aliquet
+                        Nuestro servicio de mantenimiento incluye actualizaciones regulares, 
+                        monitoreo de seguridad, copias de seguridad, y optimización del 
+                        rendimiento para asegurar que tu sitio web funcione sin problemas 
+                        y esté siempre protegido.
                      </Text>
                   </Flex>
                </Flex>
@@ -103,8 +84,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                     ¿Cómo puedo contactar con el servicio al cliente?
                      </Text>
                      <Text
                         span
@@ -112,21 +92,10 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
+                        Puedes contactar con nuestro servicio al cliente a través de 
+                        nuestro formulario de contacto en la página web, por correo 
+                        electrónico a soporte@deployplus.com, o llamando al número 
+                        de atención al cliente disponible en nuestro sitio.
                      </Text>
                   </Flex>
                </Flex>
@@ -135,8 +104,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                     ¿Cuánto tiempo se tarda en desarrollar una página web?
                      </Text>
                      <Text
                         span
@@ -144,10 +112,18 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing
+                        El tiempo de desarrollo de una página web varía según la 
+                        complejidad del proyecto. Sin embargo, en promedio, un 
+                        sitio web estándar puede tardar entre 4 a 8 semanas desde 
+                        la planificación hasta el lanzamiento.
+                     </Text>
+                  </Flex>
+               </Flex>
+               <Flex css={{gap: '$5'}} justify={'center'}>
+                  <BoxIcon />
+                  <Flex direction={'column'} css={{gap: '$3'}}>
+                     <Text h3>
+                     ¿Ofrecen servicios de diseño gráfico además del desarrollo web?
                      </Text>
                      <Text
                         span
@@ -155,12 +131,9 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet elit. Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
+                        Sí, además del desarrollo web, ofrecemos servicios de diseño 
+                        gráfico para asegurar que tu sitio web tenga una apariencia 
+                        profesional y atractiva que represente adecuadamente tu marca.
                      </Text>
                   </Flex>
                </Flex>
@@ -168,7 +141,7 @@ export const Faq = () => {
          </Flex>
 
          <Divider
-            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
+            css={{position: 'absolute', inset: '0p', left: '0', mt: '75px'}}
          />
       </>
    );

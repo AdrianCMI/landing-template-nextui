@@ -15,10 +15,7 @@ export const Plans = () => {
         align={'center'}
       >
         <Flex direction={'column'} align={'center'}>
-          <Text span css={{ color: '$blue600' }}>
-            Awesome Feature
-          </Text>
-          <Text h2>Flexible Plans</Text>
+          <Text h2 css={{color: '$blue600'}} id ={'planes'}>Nuestros Planes</Text>
         </Flex>
 
         <Flex
@@ -157,7 +154,12 @@ export const Plans = () => {
               <Text css={{ display: 'contents' }} h2>
               Contactar para precio{' '}
               </Text>
-              <Button css={{ mt: '$7', mb: '$12' }}>Contáctanos</Button>
+              <Button css={{ mt: '$7', mb: '$12' }} onClick={() => {
+                   const planesElement = document.getElementById('up');
+                   if (planesElement) {
+                       planesElement.scrollIntoView({ behavior: 'smooth' });
+                   }
+               }}>Contáctanos</Button>
 
               <Divider />
               <Box as={'ul'}>

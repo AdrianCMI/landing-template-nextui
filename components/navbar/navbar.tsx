@@ -10,13 +10,7 @@ import {GithubIcon} from '../icons/GithubIcon';
 export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
-   const collapseItems = [
-      'Features',
-      'Customers',
-      'Pricing',
-      'Company',
-      'Legal',
-   ];
+
    return (
       <Navbar
          isBordered
@@ -31,7 +25,7 @@ export const Nav = () => {
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
             <AcmeLogo />
-            <Text b color="inherit" hideIn="xs">
+            <Text b color="inherit" hideIn="xs" id='up'>
                Deploy+
             </Text>
             <Navbar.Content
@@ -40,51 +34,43 @@ export const Nav = () => {
                   pl: '6rem',
                }}
             >
-               <Navbar.Link isActive href="#">Servicios</Navbar.Link>
-               <Navbar.Link href="#">Proyectos</Navbar.Link>
-               <Navbar.Link href="#">Precios</Navbar.Link>
-               <Navbar.Link href="#">Preguntas Frecuentes</Navbar.Link>
-               <Navbar.Link href="#">Sobre Nosotros</Navbar.Link>
-               <Navbar.Link href="#">Contacto</Navbar.Link>
+               <Navbar.Link isActive href="#servicios" onClick={(e) => {
+                   e.preventDefault();
+                   const serviciosElement = document.getElementById('servicios');
+                   if (serviciosElement) {
+                       serviciosElement.scrollIntoView({ behavior: 'smooth' });
+                   }
+               }}>Servicios</Navbar.Link>
+               <Navbar.Link href="#planes" onClick={(e) => {
+                   e.preventDefault();
+                   const planesElement = document.getElementById('planes');
+                   if (planesElement) {
+                       planesElement.scrollIntoView({ behavior: 'smooth' });
+                   }
+               }}>Planes</Navbar.Link>
+               <Navbar.Link href="#us" onClick={(e) => {
+                   e.preventDefault();
+                   const usElement = document.getElementById('us');
+                   if (usElement) {
+                       usElement.scrollIntoView({ behavior: 'smooth' });
+                   }
+               }}>Sobre Nosotros</Navbar.Link>
+               <Navbar.Link href="#faq" onClick={(e) => {
+                   e.preventDefault();
+                   const faqElement = document.getElementById('faq');
+                   if (faqElement) {
+                       faqElement.scrollIntoView({ behavior: 'smooth' });
+                   }
+               }}>Preguntas Frecuentes</Navbar.Link>
+               
             </Navbar.Content>
          </Navbar.Brand>
-
-         <Navbar.Collapse>
-            {collapseItems.map((item, index) => (
-               <Navbar.CollapseItem key={item}>
-                  <Link
-                     color="inherit"
-                     css={{
-                        minWidth: '100%',
-                     }}
-                     href="#"
-                  >
-                     {item}
-                  </Link>
-               </Navbar.CollapseItem>
-            ))}
-            <Navbar.CollapseItem>
-               <Link
-                  color="inherit"
-                  css={{
-                     minWidth: '100%',
-                  }}
-                  target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
-               >
-                  <GithubIcon />
-               </Link>
-            </Navbar.CollapseItem>
-            <Navbar.CollapseItem>
-               
-            </Navbar.CollapseItem>
-         </Navbar.Collapse>
          <Navbar.Content>
-
             <Navbar.Item>
-               <Button auto flat href="#">
+               <a href='http://81.43.178.240:3000/' target="_blank"><Button auto flat >
                   Acceder a tu cuenta
                </Button>
+               </a>
             </Navbar.Item>
             <Navbar.Item hideIn={'xs'}>
                <Switch

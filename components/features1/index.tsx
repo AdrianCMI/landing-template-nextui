@@ -27,21 +27,16 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
-               </Text>
-               <Text h3>Your title here</Text>
+               <Text h2 css={{color: '$blue600'}} id ={'us'}>Sobre Nosotros</Text>
                <Text
                   span
                   css={{
                      maxWidth: '400px',
                      color: '$accents8',
+                     textAlign: 'justify',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  Conoce a nuestro equipo y nuestra misión
                </Text>
 
                <Flex
@@ -53,13 +48,40 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Quiénes Somos
                      </Text>
                      <Text
                         span
                         css={{
                            maxWidth: '400px',
                            color: '$accents8',
+                           textAlign: 'justify',
+                        }}
+                     >
+                        Somos Deploy+, una empresa dedicada a brindar soluciones 
+                        tecnológicas de calidad. Nos especializamos en el despliegue, 
+                        mantenimiento y desarrollo de sitios web, ofreciendo un servicio 
+                        integral para potenciar tu negocio en el entorno digital.
+                     </Text>
+                  </Flex>
+               </Flex>
+               <Flex
+                  css={{
+                     py: '$10',
+                     gap: '$5',
+                  }}
+               >
+                  <BoxIcon />
+                  <Flex direction={'column'}>
+                     <Text h4 weight={'medium'}>
+                     Nuestra Misión
+                     </Text>
+                     <Text
+                        span
+                        css={{
+                           maxWidth: '400px',
+                           color: '$accents8',
+                           textAlign: 'justify',
                         }}
                      >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -77,20 +99,23 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Nuestro Equipo
                      </Text>
                      <Text
                         span
                         css={{
                            maxWidth: '400px',
                            color: '$accents8',
+                           textAlign: 'justify',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Contamos con un equipo de profesionales experimentados 
+                        y apasionados por la tecnología. Trabajamos juntos para 
+                        ofrecerte las mejores soluciones y asegurarnos
+                         de que tu negocio tenga éxito en el entorno digital.
                      </Text>
                   </Flex>
+                  
                </Flex>
                <Flex
                   css={{
@@ -101,18 +126,20 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Nuestros Valores
                      </Text>
                      <Text
                         span
                         css={{
                            maxWidth: '400px',
                            color: '$accents8',
+                           textAlign: 'justify',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        En Deploy+ valoramos la integridad, la innovación y la
+                        excelencia. Creemos en construir relaciones de confianza 
+                        con nuestros clientes y en ofrecer servicios que realmente 
+                        hagan la diferencia.
                      </Text>
                   </Flex>
                </Flex>

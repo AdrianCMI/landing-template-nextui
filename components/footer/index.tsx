@@ -13,164 +13,6 @@ export const Footer = () => {
          }}
       >
          <Box as={'footer'} css={{width: '100%'}}>
-            <Flex
-               justify={'center'}
-               wrap={'wrap'}
-               align={'center'}
-               css={{
-                  'gap': '$10',
-                  '&  ul': {
-                     margin: 0,
-                  },
-                  '@sm': {},
-               }}
-            >
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <AcmeLogo />
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           First Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Second Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Third Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Forth Link
-                        </Text>
-                     </Box>
-                  </Box>
-               </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Resources</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           First Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Second Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Third Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Forth Link
-                        </Text>
-                     </Box>
-                  </Box>
-               </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Contact</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           First Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Second Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Third Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Forth Link
-                        </Text>
-                     </Box>
-                  </Box>
-               </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Legal</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           First Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Second Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Third Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Forth Link
-                        </Text>
-                     </Box>
-                  </Box>
-               </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Press</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           First Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Second Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Third Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Forth Link
-                        </Text>
-                     </Box>
-                  </Box>
-               </Flex>
-            </Flex>
             <Box
                css={{
                   'px': '$10',
@@ -179,13 +21,6 @@ export const Footer = () => {
                   },
                }}
             >
-               <Divider
-                  css={{
-                     mt: '$14',
-                     display: 'flex',
-                     justifyContent: 'center',
-                  }}
-               />
                <Flex
                   //   justify={'between'}
                   align={'center'}
@@ -199,38 +34,43 @@ export const Footer = () => {
                      },
                   }}
                >
-                  <Flex
-                     css={{
-                        gap: '$10',
-                     }}
-                     wrap={'wrap'}
-                  >
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
+               <Flex
+                  css={{
+                     gap: '$10',
+                  }}
+               >
+                     <a><img src="/insta.png" color='$accents8' width="24" height="24"/></a>
+                     <a><img src="/fb.png" color='$accents8' width="24" height="24"/></a>
+                     <a><img src="/x.png" color='$accents8' width="24" height="24"/></a>
+                     <a><img src="/disc.png" color='$accents8' width="24" height="24"/></a>
                   </Flex>
                   <Flex
                      css={{
                         gap: '$6',
                      }}
                   >
-                     <Text span css={{color: '$accents8'}}>
+                     <a><Text span css={{color: '$accents8'}}>
                         Terms of Service
                      </Text>
+                     </a>
+                     <a>
                      <Text span css={{color: '$accents8'}}>
                         Privacy Policy
                      </Text>
+                     </a>
                   </Flex>
                   <Flex
                      css={{
                         gap: '$6',
                      }}
                   >
+                     <a>
                      <Text span css={{color: '$accents8'}}>
                         © Copyright 2021 Acme Inc.
                      </Text>
+                     </a>
                   </Flex>
+                     
                </Flex>
             </Box>
          </Box>

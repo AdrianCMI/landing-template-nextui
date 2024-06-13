@@ -21,10 +21,7 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
-               </Text>
-               <Text h3>Your title here</Text>
+               <Text h2 css={{color: '$blue600'}} id ={'servicios'}>Nuestros Servicios</Text>
                <Text
                   span
                   css={{
@@ -33,9 +30,7 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec
+                  Soluciones integrales para tus necesidades tecnológicas.
                </Text>
             </Flex>
             <Flex
@@ -52,11 +47,10 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Despliegue de Páginas Web</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                           Implementamos y gestionamos el despliegue de tu sitio web
+                           de manera rápida y segura, asegurando una presencia online impecable.
                            </Text>
                         </Flex>
                      </Flex>
@@ -67,11 +61,11 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Mantenimiento</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                           Ofrecemos servicios de mantenimiento continuo para 
+                           garantizar que tu sitio web funcione sin problemas 
+                           y esté siempre actualizado.
                            </Text>
                         </Flex>
                      </Flex>
@@ -92,11 +86,10 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Servicio al Cliente</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                           Brindamos soporte al cliente 24/7, asegurándonos 
+                           de que todas tus consultas y problemas se resuelvan rápidamente.
                            </Text>
                         </Flex>
                      </Flex>
@@ -107,11 +100,11 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Diseño y Desarrollo Web</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                           Creamos sitios web atractivos y funcionales, diseñados 
+                           para mejorar la experiencia del usuario y alcanzar los 
+                           objetivos de tu negocio personalizados a tu medida.
                            </Text>
                         </Flex>
                      </Flex>

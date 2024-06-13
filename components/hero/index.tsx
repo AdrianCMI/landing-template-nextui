@@ -1,10 +1,16 @@
-import {Button, Divider, Input, Text} from '@nextui-org/react';
+import {Button, Divider, Input, Text, FormElement} from '@nextui-org/react';
 import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
+import {useTheme as useNextTheme} from 'next-themes';
+import {useTheme} from '@nextui-org/react';
 
 export const Hero = () => {
+   const {setTheme} = useNextTheme();
+   const {isDark, type} = useTheme();
+   const themeImage = isDark ? 'light-hero.png' : 'dark-hero.png';
+   
    return (
       <>
          <Flex
@@ -55,7 +61,7 @@ export const Hero = () => {
                      Desplegamos tu Éxito. Potenciamos tu Negocio.
                   </Text>
                </Box>
-
+               
                <Text
                   css={{
                      color: '$accents8',
@@ -75,9 +81,11 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
+                  
                   <Input placeholder="Escriba su correo electrónico" size="lg" />
                   <Button>Solicitar Información</Button>
                </Flex>
+
                <Flex
                   wrap={'wrap'}
                   css={{
@@ -122,7 +130,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="hero.png" />
+               <img src={themeImage} />
             </Box>
          </Flex>
          <Divider
