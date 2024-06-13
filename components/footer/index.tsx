@@ -39,10 +39,10 @@ export const Footer = () => {
                      gap: '$10',
                   }}
                >
-                     <a><img src="/insta.png" color='$accents8' width="24" height="24"/></a>
-                     <a><img src="/fb.png" color='$accents8' width="24" height="24"/></a>
-                     <a><img src="/x.png" color='$accents8' width="24" height="24"/></a>
-                     <a><img src="/disc.png" color='$accents8' width="24" height="24"/></a>
+                     <a><Image src="/insta.png" color='$accents8' width="24" height="24"/></a>
+                     <a><Image src="/fb.png" color='$accents8' width="24" height="24"/></a>
+                     <a><Image src="/x.png" color='$accents8' width="24" height="24"/></a>
+                     <a><Image src="/disc.png" color='$accents8' width="24" height="24"/></a>
                   </Flex>
                   <Flex
                      css={{
