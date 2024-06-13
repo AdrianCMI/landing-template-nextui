@@ -10,7 +10,7 @@ import Image from 'next/image';
 export const Hero = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
-   const themeImage = isDark ? '/darkhero.png' : '/lighthero.png';
+   const themeImage = isDark ? '/lighthero.png' : '/darkhero.png';
    
    return (
       <>
