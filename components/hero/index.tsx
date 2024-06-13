@@ -10,7 +10,7 @@ import Image from 'next/image';
 export const Hero = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
-   const themeImage = isDark ? 'lighthero.png' : 'darkhero.png';
+   const themeImage = 'darkhero.png';
    
    return (
       <>
@@ -131,7 +131,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <Image src={themeImage} alt="Hero" />
+               <Image src="/darkhero.png" alt="Hero" />
             </Box>
          </Flex>
          <Divider
