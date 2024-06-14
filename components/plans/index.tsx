@@ -49,7 +49,7 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                  2 Miembros del Equipo
+                  1 Miembros del Equipo
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
@@ -96,7 +96,7 @@ export const Plans = () => {
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                60€{' '}
+                50€{' '}
               </Text>
               <Button css={{ mt: '$7', mb: '$12' }} disabled>Comenzar</Button>
 
@@ -105,7 +105,7 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                  10 Miembros del Equipo
+                  5 Miembros del Equipo
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
