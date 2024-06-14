@@ -59,7 +59,7 @@ export const Features1 = () => {
                         }}
                      >
                         Somos Deploy+, una empresa dedicada a brindar soluciones 
-                        tecnológicas de calidad. Nos especializamos en el despliegue, 
+                        tecnológicas con la mejor calidad y precio. Nos especializamos en el despliegue, 
                         mantenimiento y desarrollo de sitios web, ofreciendo un servicio 
                         integral para potenciar tu negocio en el entorno digital.
                      </Text>
@@ -84,9 +84,9 @@ export const Features1 = () => {
                            textAlign: 'justify',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Nyestra misión es proporcionar soluciones tecnológicas innovadoras que faciliten 
+                        el despliegue, mantenimiento y desarrollo de páginas web, 
+                        haciéndolas accesibles de manera simple y económica para todo tipo de empresas o personas.
                      </Text>
                   </Flex>
                </Flex>
@@ -109,10 +109,10 @@ export const Features1 = () => {
                            textAlign: 'justify',
                         }}
                      >
-                        Contamos con un equipo de profesionales experimentados 
-                        y apasionados por la tecnología. Trabajamos juntos para 
-                        ofrecerte las mejores soluciones y asegurarnos
-                         de que tu negocio tenga éxito en el entorno digital.
+                        Somos una empresa formada por dos personas apasionadas por la tecnología 
+                        y la innovación. Juntos, hemos creado este proyecto como parte de nuestro 
+                        trabajo de fin de grado (TFG), con el objetivo de hacer que el proceso de 
+                        desplegar páginas web sea más accesible y asequible para todos.
                      </Text>
                   </Flex>
                   
@@ -126,7 +126,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                     Nuestros Valores
+                     Nuestra Historia
                      </Text>
                      <Text
                         span
@@ -136,10 +136,11 @@ export const Features1 = () => {
                            textAlign: 'justify',
                         }}
                      >
-                        En Deploy+ valoramos la integridad, la innovación y la
-                        excelencia. Creemos en construir relaciones de confianza 
-                        con nuestros clientes y en ofrecer servicios que realmente 
-                        hagan la diferencia.
+                        Lo que comenzó como un reto personal y una solución a un problema común, 
+                        se ha convertido en una empresa dedicada a facilitar el acceso a internet 
+                        para pequeñas empresas y emprendedores. Nos dimos cuenta de que tener una 
+                        página web accesible a través de internet suele ser complicado y caro. 
+                        Por eso, nos propusimos buscar la manera más barata y sencilla posible para el cliente.
                      </Text>
                   </Flex>
                </Flex>
