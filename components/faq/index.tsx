@@ -25,9 +25,8 @@ export const Faq = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                  aliquet
+                  Encuentra aquí las respuestas a las preguntas más comunes 
+                  sobre nuestros servicios y cómo podemos ayudarte a alcanzar tus objetivos.
                </Text>
             </Flex>
 

@@ -67,7 +67,7 @@ export const Footer = () => {
                   >
                      <a>
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2024 Deploy+.
                      </Text>
                      </a>
                   </Flex>

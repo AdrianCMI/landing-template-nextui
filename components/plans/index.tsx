@@ -40,7 +40,7 @@ export const Plans = () => {
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                20€{' '}
+                15€{' '}
               </Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Comenzar</Button>
 
@@ -49,7 +49,7 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                  3 Miembros del Equipo
+                  2 Miembros del Equipo
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
@@ -61,13 +61,13 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                  5 GB de Almacenamiento
+                  3 GB de Almacenamiento
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                  1 TB de Transferencia
+                  500 GB de Transferencia
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
@@ -96,7 +96,7 @@ export const Plans = () => {
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                50€{' '}
+                60€{' '}
               </Text>
               <Button css={{ mt: '$7', mb: '$12' }} disabled>Comenzar</Button>
 
@@ -117,13 +117,13 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                  20 GB de Almacenamiento
+                  15 GB de Almacenamiento
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                  5 TB de Transferencia
+                  3 TB de Transferencia
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
